@@ -1,3 +1,15 @@
+/*  background for siman landing page
+background: #F00000;
+background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+background: linear-gradient(to right, #DC281E, #F00000); */
+
+/* Color themes for siman landing page 
+.Dark-Red-gradient-1-rgba { color: rgba(58, 0, 0, 1); }
+.Dark-Red-gradient-2-rgba { color: rgba(93, 4, 8, 1); }
+.Dark-Red-gradient-3-rgba { color: rgba(126, 0, 1, 1); }
+.Dark-Red-gradient-4-rgba { color: rgba(156, 2, 4, 1); }
+.Dark-Red-gradient-5-rgba { color: rgba(255, 1, 4, 1); } */
+
 .container-index {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
