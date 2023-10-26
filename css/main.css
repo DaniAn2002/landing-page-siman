@@ -1,0 +1,152 @@
+.container-index {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+
+    text-align: center;
+
+    gap: 5px;
+    padding: 15px;
+
+    grid-template-areas:
+        "navbar navbar navbar"
+        "text text text"
+        "ofertas descuentos eventos"
+    ;
+}
+
+.container-ofertas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+
+    text-align: center;
+
+    gap: 5px;
+    padding: 15px;
+
+    grid-template-areas:
+        "navbar navbar navbar"
+        "desc-a desc-a img-a"
+        "img-b desc-b desc-b"
+        "desc-c desc-c img-c"
+
+    ;
+}
+
+.container-eventos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+
+    text-align: center;
+
+    gap: 5px;
+    padding: 15px;
+
+    grid-template-areas:
+        "navbar navbar navbar"
+        "desc-ev desc-ev img-ev"
+        "hiw hiw hiw"
+        "img1-ev des1-ev des1-ev"
+        "des2-ev des2-ev img2-ev"
+    ;
+}
+
+.desc-eventos {
+    grid-area: desc-ev;
+}
+
+.img-desc-ev {
+    grid-area: img-ev;
+}
+
+.hiw {
+    grid-area: hiw;
+}
+
+.img1-ev {
+    grid-area: img1-ev;
+}
+
+.desc1-ev {
+    grid-area: des1-ev;
+}
+
+.img2-ev {
+    grid-area: img2-ev;
+}
+
+.desc2-ev {
+    grid-area: des2-ev;
+}
+
+
+
+
+
+.border-test {
+    border: 1px solid green;
+
+}
+
+.text-index {
+    grid-area: text;
+    margin-bottom: 25px;
+
+}
+
+.navbar {
+    margin-bottom: 25px;
+    grid-area: navbar;
+}
+
+.ofertas {
+    grid-area: ofertas;
+    margin-bottom: 25px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar li {
+    display: inline;
+    margin: 25px;
+}
+
+.descuentos {
+    margin-top: 25px;
+    margin-bottom: -25px;
+    grid-area: descuentos;
+}
+
+.eventos {
+    grid-area: eventos;
+}
+
+.oferta-a-desc {
+    grid-area: desc-a;
+}
+
+.oferta-a-img {
+    grid-area: img-a;
+}
+
+.oferta-b-desc {
+    grid-area: desc-b;
+}
+
+.oferta-b-img {
+    grid-area: img-b;
+}
+
+.oferta-c-desc {
+    grid-area: desc-c;
+}
+
+.oferta-c-img {
+    grid-area: img-c;
+}
