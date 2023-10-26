@@ -53,6 +53,48 @@
     ;
 }
 
+.container-descuentos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+
+    text-align: center;
+
+    gap: 5px;
+    padding: 15px;
+
+    grid-template-areas:
+        "navbar navbar navbar navbar"
+        "desc-2 desc-2 desc-2 desc-2"
+        "sb sb sb sb"
+        "dd1 dd2 dd3 dd4"
+    ;
+}
+
+.description-desc {
+    grid-area: desc-2;
+}
+
+.sb {
+    grid-area: sb;
+}
+
+.dd1 {
+    grid-area: dd1;
+}
+
+.dd2 {
+    grid-area: dd2;
+}
+
+.dd3 {
+    grid-area: dd3;
+}
+
+.dd4 {
+    grid-area: dd4;
+}
+
 .desc-eventos {
     grid-area: desc-ev;
 }
@@ -80,10 +122,6 @@
 .desc2-ev {
     grid-area: des2-ev;
 }
-
-
-
-
 
 .border-test {
     border: 1px solid green;
