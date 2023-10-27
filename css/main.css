@@ -10,6 +10,19 @@ background: linear-gradient(to right, #DC281E, #F00000); */
 .Dark-Red-gradient-4-rgba { color: rgba(156, 2, 4, 1); }
 .Dark-Red-gradient-5-rgba { color: rgba(255, 1, 4, 1); } */
 
+/* body {
+    background: #F00000;
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+    background: linear-gradient(to right, #DC281E, #F00000);
+} */
+
+body {
+    /*     background-color: aquamarine;
+ */
+    padding: 0;
+    margin: 0;
+}
+
 .container-index {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,7 +34,7 @@ background: linear-gradient(to right, #DC281E, #F00000); */
     padding: 15px;
 
     grid-template-areas:
-        "navbar navbar navbar"
+        /*  "navbar navbar navbar" */
         "text text text"
         "ofertas descuentos eventos"
     ;
@@ -44,11 +57,10 @@ background: linear-gradient(to right, #DC281E, #F00000); */
     padding: 15px;
 
     grid-template-areas:
-        "navbar navbar navbar"
+        /*   "navbar navbar navbar" */
         "desc-a desc-a img-a"
         "img-b desc-b desc-b"
         "desc-c desc-c img-c"
-
     ;
 }
 
@@ -63,7 +75,7 @@ background: linear-gradient(to right, #DC281E, #F00000); */
     padding: 15px;
 
     grid-template-areas:
-        "navbar navbar navbar"
+        /*   "navbar navbar navbar" */
         "desc-ev desc-ev img-ev"
         "hiw hiw hiw"
         "img1-ev des1-ev des1-ev"
@@ -76,25 +88,21 @@ background: linear-gradient(to right, #DC281E, #F00000); */
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
 
+
     text-align: center;
 
     gap: 5px;
     padding: 15px;
 
     grid-template-areas:
-        "navbar navbar navbar navbar"
+        /*  "navbar navbar navbar navbar" */
         "desc-2 desc-2 desc-2 desc-2"
-        "sb sb sb sb"
         "dd1 dd2 dd3 dd4"
     ;
 }
 
 .description-desc {
     grid-area: desc-2;
-}
-
-.sb {
-    grid-area: sb;
 }
 
 .dd1 {
@@ -115,6 +123,7 @@ background: linear-gradient(to right, #DC281E, #F00000); */
 
 .desc-eventos {
     grid-area: desc-ev;
+
 }
 
 .img-desc-ev {
@@ -141,10 +150,10 @@ background: linear-gradient(to right, #DC281E, #F00000); */
     grid-area: des2-ev;
 }
 
-.border-test {
+/* .border-test {
     border: 1px solid green;
 
-}
+} */
 
 .text-index {
     grid-area: text;
@@ -154,8 +163,17 @@ background: linear-gradient(to right, #DC281E, #F00000); */
 
 .navbar {
     margin-bottom: 25px;
+    padding: 0.5rem;
     grid-area: navbar;
+    z-index: 999;
+    position: sticky;
+    background-color: rgba(255, 1, 4, 1);
+    border-radius: 0px 0px 10px 10px;
+    text-align: left;
+    top: 0;
+
 }
+
 
 .ofertas {
     grid-area: ofertas;
@@ -166,11 +184,31 @@ ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
+
+.img-siman {
+    width: 75px;
+    height: auto;
+}
+
+li.img-siman {
+    padding-top: 50px;
+}
+
 
 ul.navbar li {
     display: inline;
     margin: 25px;
+    text-align: center;
+
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+
 }
 
 .descuentos {
@@ -205,4 +243,34 @@ ul.navbar li {
 
 .oferta-c-img {
     grid-area: img-c;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.max-height {
+    height: 10rem;
+}
+
+.css-button-fully-rounded--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #d90429;
+    background: #d90429;
+}
+
+.css-button-fully-rounded--red:hover {
+    background: #fff;
+    color: #d90429
 }
