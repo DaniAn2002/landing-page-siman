@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:wght@600&family=Rubik:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
 /*  background for siman landing page
 background: #F00000;
 background: -webkit-linear-gradient(to right, #DC281E, #F00000);
@@ -15,6 +18,17 @@ background: linear-gradient(to right, #DC281E, #F00000); */
     background: -webkit-linear-gradient(to right, #DC281E, #F00000);
     background: linear-gradient(to right, #DC281E, #F00000);
 } */
+p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-size: 1.1rem;
+}
+
+/* p {
+    font-family: 'Kanit', sans-serif;
+} */
 
 body {
     /*     background-color: aquamarine;
@@ -30,8 +44,9 @@ body {
 
     text-align: center;
 
-    gap: 5px;
-    padding: 15px;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 
     grid-template-areas:
         /*  "navbar navbar navbar" */
@@ -44,6 +59,14 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.img-index {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    bottom: 100px;
 }
 
 .container-ofertas {
@@ -71,7 +94,7 @@ body {
 
     text-align: center;
 
-    gap: 5px;
+    gap: 50px;
     padding: 15px;
 
     grid-template-areas:
@@ -100,6 +123,14 @@ body {
         "dd1 dd2 dd3 dd4"
     ;
 }
+
+/* .flex-display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+} */
 
 .description-desc {
     grid-area: desc-2;
@@ -163,7 +194,7 @@ body {
 
 .navbar {
     margin-bottom: 25px;
-    padding: 0.5rem;
+    padding: 1.5rem;
     grid-area: navbar;
     z-index: 999;
     position: sticky;
@@ -174,10 +205,15 @@ body {
 
 }
 
+/* .background-index{
+    background-color: red;
+} */
 
 .ofertas {
     grid-area: ofertas;
-    margin-bottom: 25px;
+    /*     position: relative;
+ */
+    /* margin-bottom: 25px; */
 }
 
 ul.navbar {
@@ -207,13 +243,13 @@ ul.navbar li {
 ul.navbar li a {
     text-decoration: none;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1.42rem;
 
 }
 
 .descuentos {
-    margin-top: 25px;
-    margin-bottom: -25px;
+    margin-top: 80px;
+    margin-bottom: -80px;
     grid-area: descuentos;
 }
 
@@ -248,10 +284,31 @@ ul.navbar li a {
 .text {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-descuentos {
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .max-height {
     height: 10rem;
+}
+
+.button-ofertas-left {
+    padding-top: 25px;
+    padding-left: 50px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.button-ofertas-rigth {
+    padding-top: 25px;
+    padding-left: 50px;
+    display: flex;
+    align-self: flex-end;
 }
 
 .css-button-fully-rounded--red {
@@ -274,3 +331,21 @@ ul.navbar li a {
     background: #fff;
     color: #d90429
 }
+
+/* @media screen and (max-width:480px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:2048px) {
+    body {
+        background-color: gray;
+    }
+} */
