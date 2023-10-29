@@ -24,15 +24,15 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Young Serif', serif;
-    font-size: 1.3rem;
+    font-size: 20.8px;
     box-shadow:
-        2.7px 2.3px 1.9px rgba(0, 0, 0, 0.017),
-        6.3px 5.4px 4.3px rgba(0, 0, 0, 0.031),
-        11.3px 9.7px 7.7px rgba(0, 0, 0, 0.042),
-        18.8px 16.1px 12.8px rgba(0, 0, 0, 0.052),
-        31px 26.5px 21.2px rgba(0, 0, 0, 0.065),
-        54.1px 46.2px 37px rgba(0, 0, 0, 0.087),
-        117px 100px 80px rgba(0, 0, 0, 0.12);
+        .1688rem .1437rem .1187rem rgba(0, 0, 0, 0.017),
+        .3937rem .3375rem .2687rem rgba(0, 0, 0, 0.031),
+        .7063rem .6062rem .4813rem rgba(0, 0, 0, 0.042),
+        1.175rem 1.0063rem .8rem rgba(0, 0, 0, 0.052),
+        1.9375rem 1.6563rem 1.325rem rgba(0, 0, 0, 0.065),
+        3.3813rem 2.8875rem 2.3125rem rgba(0, 0, 0, 0.087),
+        7.3125rem 6.25rem 5rem rgba(0, 0, 0, 0.12);
 }
 
 .text2 {
@@ -40,12 +40,12 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Young Serif', serif;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     color: white;
 }
 
 .text3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-family: 'Arimo', sans-serif;
     font-family: 'Dancing Script', cursive;
     font-family: 'Noto Sans', sans-serif;
@@ -59,7 +59,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Young Serif', serif;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .container-index {
@@ -69,9 +69,9 @@ body {
 
     text-align: center;
 
-    gap: 3.125rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 
     grid-template-areas:
         "text text text"
@@ -90,7 +90,7 @@ body {
     height: 100%;
     object-fit: contain;
     position: relative;
-    bottom: 6.25rem;
+    bottom: 100px;
 }
 
 .container-ofertas {
@@ -100,9 +100,9 @@ body {
 
     text-align: center;
 
-    gap: .3125rem;
-    padding: .9375rem;
-    padding-bottom: 7.8125rem;
+    gap: 5px;
+    padding: 15px;
+    padding-bottom: 125px;
     grid-template-areas:
         "desc-a desc-a img-a"
         "img-b desc-b desc-b"
@@ -117,9 +117,9 @@ body {
 
     text-align: center;
 
-    gap: 3.125rem;
-    padding: .9375rem;
-    padding-bottom: 7.8125rem;
+    gap: 50px;
+    padding: 15px;
+    padding-bottom: 125px;
 
     grid-template-areas:
 
@@ -137,8 +137,8 @@ body {
 
     text-align: center;
 
-    gap: .625rem;
-    padding-bottom: 4.0625rem;
+    gap: 10px;
+    padding-bottom: 65px;
 }
 
 .container-descuentos {
@@ -148,8 +148,8 @@ body {
 
     text-align: center;
 
-    gap: .3125rem;
-    padding: .9375rem;
+    gap: 5px;
+    padding: 15px;
 
     grid-template-areas:
         "desc-2 desc-2 desc-2 desc-2"
@@ -209,7 +209,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 3.125rem;
+    border-radius: 50px;
 }
 
 .text-index-text {
@@ -220,26 +220,26 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: .625rem;
+    gap: 10px;
     position: relative;
     flex-direction: column;
 }
 
 .navbar {
-    margin-bottom: 1.5625rem;
-    padding: 1.5rem;
+    margin-bottom: 25px;
+    padding: 24px;
     grid-area: navbar;
     z-index: 999;
     position: sticky;
     background-color: #730606;
-    border-radius: 0rem 0rem .625rem .625rem;
+    border-radius: 0px 0px 10px 10px;
     text-align: left;
     top: 0;
 
 }
 
 .border {
-    border: .1875rem black solid;
+    border: 3px black solid;
 }
 
 .ofertas {
@@ -253,18 +253,18 @@ ul.navbar {
 }
 
 .img-siman {
-    width: 4.6875rem;
+    width: 75px;
     height: auto;
 }
 
 li.img-siman {
-    padding-top: 3.125rem;
+    padding-top: 50px;
 }
 
 
 ul.navbar li {
     display: inline;
-    margin: 1.5625rem;
+    margin: 25px;
     text-align: center;
 
 }
@@ -272,13 +272,13 @@ ul.navbar li {
 ul.navbar li a {
     text-decoration: none;
     color: white;
-    font-size: 22.72px;
+    font-size: 1.42rem;
 
 }
 
 .descuentos {
-    margin-top: -5.3125rem;
-    margin-bottom: -5.3125rem;
+    margin-top: -85px;
+    margin-bottom: -85px;
     grid-area: descuentos;
 }
 
@@ -318,41 +318,41 @@ ul.navbar li a {
 }
 
 .img-descuentos {
-    padding-top: 7.1875rem;
-    padding-bottom: 3.125rem;
+    padding-top: 115px;
+    padding-bottom: 50px;
 }
 
 .max-height {
-    height: 160px;
+    height: 10rem;
 }
 
 .button-ofertas-left {
-    padding-top: 1.5625rem;
-    padding-left: 3.125rem;
+    padding-top: 25px;
+    padding-left: 50px;
     display: flex;
     align-self: flex-start;
 }
 
 .button-ofertas-rigth {
-    padding-top: 1.5625rem;
-    padding-left: 3.125rem;
+    padding-top: 25px;
+    padding-left: 50px;
     display: flex;
     align-self: flex-end;
 }
 
 .css-button-fully-rounded--red {
-    min-width: 200px;
-    height: 50px;
+    min-width: 12.5rem;
+    height: 3.125rem;
     color: #fff;
-    padding: 5px 10px;
+    padding: .3125rem .625rem;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 20px;
-    border: 2px solid #d90429;
+    border-radius: 1.25rem;
+    border: .125rem solid #d90429;
     background: #d90429;
 }
 
@@ -364,23 +364,26 @@ ul.navbar li a {
 
 .background-index {
     background-color: #730606;
-    border-radius: 1.5625rem;
+    border-radius: 25px;
 }
 
 .navbar li a:hover {
     color: #BF9075;
-    text-shadow: rgba(255, 255, 255, 0.5) .0625rem .0625rem;
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
 }
 
+.social{
+    margin-left: 1.5625rem;
+}
 .footer {
     height: 05%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 1.875rem;
+    padding-bottom: 30px;
     background-color: white;
     font-family: 'Rubik', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) .5rem .0625rem .0625rem .375rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 8px 1px 1px 6px;
     bottom: 0;
     width: 100%;
     object-fit: cover;
@@ -393,22 +396,22 @@ ul.navbar li a {
     align-items: flex-end;
     height: 2vw;
     object-fit: contain;
-    padding: 0 1.25rem;
+    padding: 0 20px;
 }
 
-/* @media screen and (max-width:480px) {
+/* @media screen and (max-width:30rem) {
     body {
         background-color: blueviolet;
     }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
+@media screen and (min-width:30.0625rem) and (max-width:48rem) {
     body {
         background-color: green;
     }
 }
 
-@media screen and (min-width:769px) and (max-width:2048px) {
+@media screen and (min-width:48.0625rem) and (max-width:128rem) {
     body {
         background-color: gray;
     }
