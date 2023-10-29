@@ -366,10 +366,12 @@ ul.navbar li a {
     background-color: #730606;
     border-radius: 1.5625rem;
 }
-.navbar li a:hover{
-    color: rgba(67, 125, 231, 1);
+
+.navbar li a:hover {
+    color: #BF9075;
     text-shadow: rgba(255, 255, 255, 0.5) .0625rem .0625rem;
 }
+
 .footer {
     height: 05%;
     display: flex;
