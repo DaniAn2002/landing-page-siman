@@ -23,7 +23,7 @@ p {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Young Serif', serif;
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 
 /* * {
@@ -51,9 +51,9 @@ body {
 
     text-align: center;
 
-    gap: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    gap: 3.125rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
     grid-template-areas:
         /*  "navbar navbar navbar" */
@@ -73,7 +73,7 @@ body {
     height: 100%;
     object-fit: contain;
     position: relative;
-    bottom: 100px;
+    bottom: 6.25rem;
 }
 
 .container-ofertas {
@@ -83,9 +83,9 @@ body {
 
     text-align: center;
 
-    gap: 5px;
-    padding: 15px;
-
+    gap: .3125rem;
+    padding: .9375rem;
+    padding-bottom: 7.8125rem;
     grid-template-areas:
         /*   "navbar navbar navbar" */
         "desc-a desc-a img-a"
@@ -101,8 +101,10 @@ body {
 
     text-align: center;
 
-    gap: 50px;
-    padding: 15px;
+    gap: 3.125rem;
+    padding: .9375rem;
+    padding-bottom: 7.8125rem;
+
 
     grid-template-areas:
         /*   "navbar navbar navbar" */
@@ -120,8 +122,8 @@ body {
 
     text-align: center;
 
-    gap: 10px;
-    padding-bottom: 65px;
+    gap: .625rem;
+    padding-bottom: 4.0625rem;
 }
 
 .container-descuentos {
@@ -132,8 +134,8 @@ body {
 
     text-align: center;
 
-    gap: 5px;
-    padding: 15px;
+    gap: .3125rem;
+    padding: .9375rem;
 
     grid-template-areas:
         /*  "navbar navbar navbar navbar" */
@@ -200,7 +202,7 @@ body {
 }
 
 /* .border-test {
-    border: 1px solid green;
+    border: .0625rem solid green;
 
 } */
 
@@ -208,11 +210,11 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
 .text-index-text {
-    /* padding-top: 55px; */
+    /* padding-top: 3.4375rem; */
     grid-area: text;
 }
 
@@ -220,19 +222,19 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: .625rem;
     position: relative;
     flex-direction: column;
 }
 
 .navbar {
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
     padding: 1.5rem;
     grid-area: navbar;
     z-index: 999;
     position: sticky;
     background-color: rgba(255, 1, 4, 1);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0rem 0rem .625rem .625rem;
     text-align: left;
     top: 0;
 
@@ -246,7 +248,7 @@ body {
     grid-area: ofertas;
     /*     position: relative;
  */
-    /* margin-bottom: 25px; */
+    /* margin-bottom: 1.5625rem; */
 }
 
 ul.navbar {
@@ -257,18 +259,18 @@ ul.navbar {
 }
 
 .img-siman {
-    width: 75px;
+    width: 4.6875rem;
     height: auto;
 }
 
 li.img-siman {
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 
 ul.navbar li {
     display: inline;
-    margin: 25px;
+    margin: 1.5625rem;
     text-align: center;
 
 }
@@ -276,13 +278,13 @@ ul.navbar li {
 ul.navbar li a {
     text-decoration: none;
     color: white;
-    font-size: 1.42rem;
+    font-size: 22.72px;
 
 }
 
 .descuentos {
-    margin-top: -85px;
-    margin-bottom: -85px;
+    margin-top: -5.3125rem;
+    margin-bottom: -5.3125rem;
     grid-area: descuentos;
 }
 
@@ -322,41 +324,41 @@ ul.navbar li a {
 }
 
 .img-descuentos {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 7.1875rem;
+    padding-bottom: 3.125rem;
 }
 
 .max-height {
-    height: 10rem;
+    height: 160px;
 }
 
 .button-ofertas-left {
-    padding-top: 25px;
-    padding-left: 50px;
+    padding-top: 1.5625rem;
+    padding-left: 3.125rem;
     display: flex;
     align-self: flex-start;
 }
 
 .button-ofertas-rigth {
-    padding-top: 25px;
-    padding-left: 50px;
+    padding-top: 1.5625rem;
+    padding-left: 3.125rem;
     display: flex;
     align-self: flex-end;
 }
 
 .css-button-fully-rounded--red {
-    min-width: 130px;
-    height: 40px;
+    min-width: 8.125rem;
+    height: 2.5rem;
     color: #fff;
-    padding: 5px 10px;
+    padding: .3125rem .625rem;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 20px;
-    border: 2px solid #d90429;
+    border-radius: 1.25rem;
+    border: .125rem solid #d90429;
     background: #d90429;
 }
 
@@ -367,20 +369,18 @@ ul.navbar li a {
 
 .background-index {
     background-color: #e0e7ec;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
 }
 
 .footer {
-    height: 10%;
+    height: 05%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    margin: 0;
+    padding-bottom: 1.875rem;
     background-color: white;
-    font-family: 'Fredoka', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) 8px 1px 1px 6px;
-    z-index: 999;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) .5rem .0625rem .0625rem .375rem;
     bottom: 0;
     width: 100%;
     object-fit: cover;
@@ -393,30 +393,22 @@ ul.navbar li a {
     align-items: flex-end;
     height: 2vw;
     object-fit: contain;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
-.social-images a:hover {
-    color: #9F4340;
-}
-
-.footer-text {
-    width: 100%;
-}
-
-/* @media screen and (max-width:480px) {
+/* @media screen and (max-width:30rem) {
     body {
         background-color: blueviolet;
     }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
+@media screen and (min-width:30.0625rem) and (max-width:48rem) {
     body {
         background-color: green;
     }
 }
 
-@media screen and (min-width:769px) and (max-width:2048px) {
+@media screen and (min-width:48.0625rem) and (max-width:128rem) {
     body {
         background-color: gray;
     }
