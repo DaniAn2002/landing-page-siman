@@ -84,7 +84,9 @@ body {
 }
 
 .container{
-    
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
 }
 
 .container-ofertas {
