@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:wght@600&family=Rubik:wght@300&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 /*  background for siman landing page
 background: #F00000;
@@ -13,17 +12,40 @@ background: linear-gradient(to right, #DC281E, #F00000); */
 .Dark-Red-gradient-4-rgba { color: rgba(156, 2, 4, 1); }
 .Dark-Red-gradient-5-rgba { color: rgba(255, 1, 4, 1); } */
 
-/* body {
-    background: #F00000;
-    background: -webkit-linear-gradient(to right, #DC281E, #F00000);
-    background: linear-gradient(to right, #DC281E, #F00000);
-} */
-p {
+body {
+    background-color: #BF9075;
+}
+.text1 {
     font-family: 'Dancing Script', cursive;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Young Serif', serif;
-    font-size: 17.6px;
+    font-size: 1.2rem;
+    box-shadow:
+        2.7px 2.3px 1.9px rgba(0, 0, 0, 0.017),
+        6.3px 5.4px 4.3px rgba(0, 0, 0, 0.031),
+        11.3px 9.7px 7.7px rgba(0, 0, 0, 0.042),
+        18.8px 16.1px 12.8px rgba(0, 0, 0, 0.052),
+        31px 26.5px 21.2px rgba(0, 0, 0, 0.065),
+        54.1px 46.2px 37px rgba(0, 0, 0, 0.087),
+        117px 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.text2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-size: 1.2rem;
+    color: white; 
+}
+
+.text-button {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-size: 1rem;
 }
 
 /* * {
@@ -347,20 +369,21 @@ ul.navbar li a {
 }
 
 .css-button-fully-rounded--red {
-    min-width: 8.125rem;
-    height: 2.5rem;
+    min-width: 200px;
+    height: 50px;
     color: #fff;
-    padding: .3125rem .625rem;
+    padding: 5px 10px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 1.25rem;
-    border: .125rem solid #d90429;
+    border-radius: 20px;
+    border: 2px solid #d90429;
     background: #d90429;
 }
+
 
 .css-button-fully-rounded--red:hover {
     background: #fff;
@@ -368,7 +391,7 @@ ul.navbar li a {
 }
 
 .background-index {
-    background-color: #e0e7ec;
+    background-color: #590505;
     border-radius: 1.5625rem;
 }
 
